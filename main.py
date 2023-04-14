@@ -10,13 +10,6 @@ import blessed
 term = blessed.Terminal()
 
 
-class Colors:
-    RED = '\033[0;31m'
-    GREEN = '\033[0;32m'
-    CYAN = '\033[0;36m'
-    RESET = '\033[0m'
-    
-
 class Grid:
     '''A class to handle the game board grid with W x H cells
     
@@ -165,7 +158,6 @@ class RadioCar:
             return
         else:
             sys.exit(term.on_red('Something went wrong in the right turn. Simulation over'))
-
 
 
 class Game:
