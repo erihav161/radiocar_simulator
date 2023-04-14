@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Classic game of tennis."""
+"""Radio Car Simulation"""
 # std imports
 import sys
 from time import sleep
